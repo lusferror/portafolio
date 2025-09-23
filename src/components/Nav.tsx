@@ -4,7 +4,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const Likns = [
+export const Likns = [
     { name: "inicio", path: "/" },
     { name: "servicios", path: "/services" },
     { name: "resumen", path: "/resume" },
